@@ -46,7 +46,7 @@ const app = Vue.createApp({
             this.$refs.modalremovealltask.close()   
         },
         
-        closemomodalremovealltask() {
+        closeMomodalRemoveAllTask() {
             this.$refs.modalremovealltask.close()
         }
     },
