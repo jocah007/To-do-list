@@ -58,8 +58,8 @@ body {
     outline: none;
     padding-left: 2rem;
 }
-
-abel {
+/* Estilizando a label (o texto da tarefa) */
+label {
     flex-grow: 1;
     cursor: pointer;
 }
@@ -191,11 +191,7 @@ input:focus {
     opacity: 1;
 }
 
-/* Estilizando a label (o texto da tarefa) */
-label {
-    flex-grow: 1;
-    cursor: pointer;
-}
+
 
 /* Estilo ao passar o mouse sobre a tarefa */
 .task:hover {
@@ -284,7 +280,6 @@ dialog {
     padding: 2rem;
     width: 30rem;
     max-width: 80%;
-    position: fixed;
     top: 50%;
     left: 18%;
     transform: translate(-40%, -50%); /* Centraliza horizontal e verticalmente */
